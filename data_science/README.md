@@ -61,12 +61,23 @@
 - An experimental design technique for determining the effect of a given sample size with a given degree of confidence
 ```
 ### Q12 What is K-means? How can you select K for K-means?
+``` 
+- K-means is a clustering algorithm (K-nearest neighbor is a calssification algorithm), handle with unsupervised problems. K-means clustering aims to partition n observations into K clusters in which each observation belongs to the cluster with the nearest mean, serving as a prototype of the cluster.
+- The number of clusters can be chosen visually or compute the SSE (sum of squared error) for some values of K to find a good K.
 ```
--
+### Q13 What is Collaborative filtering?
 ```
-
+- A method of making automatic predictions about the interests of a user by collecting preferences or taste information from many users (collaborating).
+- It is used in most of the recommender systems.
+```
+### Q14 What is the difference between Cluster and Systematic Sampling?
+```
+- 
+```
 
 
 ## Reference
 - Interview questions: https://github.com/zhiqiangzhongddu/Data-Science-Interview-Questions-and-Answers-General-
 - Logistic regression: https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148
+- 2018 100 DS Interview questions: https://www.dezyre.com/article/100-data-science-interview-questions-and-answers-general-for-2018/184
+- 2017 41 Essential machine learning interview questions: https://www.springboard.com/blog/machine-learning-interview-questions/?from=message&isappinstalled=0
