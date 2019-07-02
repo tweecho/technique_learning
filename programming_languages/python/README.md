@@ -65,18 +65,20 @@
 ```
 #### Example (fundamental one, not using all elements)
 ```
-class RobotAgent(): #class name
+class RobotAgent():                 #class name
   def __init__(self, up, down, left, right, robot_name) # function name and variable name
-    self.robot_name = robot_name
     self.up = up
     self.down = down
     self.left = left
     self.right = right
+    self.robot_name = robot_name    #public attribute           all members in a Python class are public by default   RobotAgent().robot_name
+    self._robot_name = robot_name   #protected attribute        prevent the instance be accessed unless it is from within a sub-class   RobotAgent()._robot_name  
+    self.__robot_name = robot_name  #private atrribute          give a strong suggestion not to touch it from outside the class   RobotAgent()._RobotAgent__robot_name(object._class__variable)
   
-  def move_steps(self): #function name
+  def move_steps(self):             #function name
     try:
       print('The number of upsteps is: ', self.up)
-    except ValueError: # exception name
+    except ValueError:              # exception name
       return 0
 ```
 
