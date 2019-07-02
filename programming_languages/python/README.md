@@ -63,6 +63,22 @@
 - 总是对‘类的方法和实例变量(属性)应该是公有的还是私有的’是确定的，如果不确定，就选择私有，在后续工作中，将私有的变成公有的比将公有的属性变成私有的容易
 - Public attributes(公共属性)需要开发者保证避免向后不兼容的更改，non-public attributes(私有属性)是指不打算提供给第三方使用的属性，对于私有属性，不需要保证私有属性不会更改或者不会被删除
 ```
+#### Example (fundamental one, not using all elements)
+```
+class RobotAgent(): #class name
+  def __init__(self, up, down, left, right, robot_name) # function name and variable name
+    self.robot_name = robot_name
+    self.up = up
+    self.down = down
+    self.left = left
+    self.right = right
+  
+  def move_steps(self): #function name
+    try:
+      print('The number of upsteps is: ', self.up)
+    except ValueError: # exception name
+      return 0
+```
 
 ## References
 Code standards in Python: https://www.python.org/dev/peps/pep-0008/
