@@ -83,4 +83,5 @@ class RobotAgent():                 #class name
 ```
 
 ## References
-Code standards in Python: https://www.python.org/dev/peps/pep-0008/
+- Code standards in Python: https://www.python.org/dev/peps/pep-0008/
+- PEP 8 -- Style Guide for Python Code: https://www.python.org/dev/peps/pep-0008/#prescriptive-naming-conventions
