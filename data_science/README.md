@@ -135,8 +135,10 @@
 - It is a statistical hypothesis testing for randomized experiment with two variables A and B. The goal of A/B Testing is to identify any changes to the web page to maximize or increase the outcome of an interest. Anexample for this could be identifying the click through rate for a banner ad.
 ```
 #### Q25 What is an Eigenvalue and Eigenvector?
-
-
+```
+- Eigenvectors are used for understanding linear transformations. 
+- In data analysis, we usually calculate the eigenvectors for a correlation or covariance matrix. Eigenvectors are the directions along which a particular linear transformation acts by flipping, compressing or stretching. Eigenvalue can be referred to as the strength of the transformation in the direction of eigenvector or the factor by which the compression occurs.
+```
 
 
    
