@@ -24,16 +24,34 @@ https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE
 - linear combination of **v** and **w**
   - a **v** + b **w**
 #### Span
-- The span of **v** and **w** is the set of all their linear combinations.
-- The span of two vectors (in different direction) in 3-dimensional space is a flat sheet.
-- The span of three vectors (in different direction) in 3-dimensional space is the full three dimensions of space.
+- The span of **v** and **w** is the set of all their linear combinations
+- The span of two vectors (in different direction) in 3-dimensional space is a flat sheet
+- The span of three vectors (in different direction) in 3-dimensional space is the full three dimensions of space
 #### Vectors as points
-- When dealing with collections of vectors, it is common to represent each one with just a point in space. 
+- When dealing with collections of vectors, it is common to represent each one with just a point in space
   - Think of individual vectors as arrow.
   - Think of sets of vectors as points.
 #### Linearly dependent
-- One of the vectors can be expressed as a linear combination of the others since it is already in the span of the others.
+- One of the vectors can be expressed as a linear combination of the others since it is already in the span of the others
 #### Linearly independent
-- If each vector really does add another dimenssion to the span, they are said to be linearly independent.
+- If each vector really does add another dimenssion to the span, they are said to be linearly independent
 
-### Chapter 3 Matrices as linear transformations
+### Chapter 3 Matrices as linear transformations ***important***
+#### Linear transformation
+- transformation (more vivid for describing the movement of the vectors) 
+  - a fancy word for 'function' that takes in inputs and spits out an output for each one
+- linear means:
+  - all lines remains lines without getting curved 
+  - the origin must remain fixed in place
+- Think of linear transformation as keeping grid lines parallel and evenly spaced
+#### Matrix multiplication
+- 2 * 2 matrix  (a matrix can be seen as a certain transformation of space)
+  ```
+  [a b] [x]  -->  x[a] + y[b] --> [ax + by]    the first column (a,c) is the place where the first basis vector lands
+  [c d] [y]  -->  x[c] + y[d] --> [cx + dy]    the second column (b,d) is the place where the second basis vector lands
+  ```
+- Matrix multiplication is just a way to compute what that transformation does to a given vector
+
+### Chapter 4 Matrix multiplication as composition
+####
+####
