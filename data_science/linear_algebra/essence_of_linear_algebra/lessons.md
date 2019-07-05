@@ -53,5 +53,14 @@ https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE
 - Matrix multiplication is just a way to compute what that transformation does to a given vector
 
 ### Chapter 4 Matrix multiplication as composition
-####
-####
+#### Matrix Multiplication
+- Represents applying one transformation after another
+```
+<----------- Read from right to left
+[1 1] [0 -1] = [1 -1]
+[0 1] [1  0] = [1  0]
+shear rotation composition
+```
+- first apply rotation and then shear(could be other transformation as well)
+
+### Chapter 5 Three-dimensional linear transformations
